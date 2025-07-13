@@ -27,7 +27,7 @@ git clone https://github.com/gensyn-ai/rl-swarm.git
 #------SCRIPT FILES------
 
 sudo apt install expect -y
-git clone https://github.com/OneEyeKing-001/gensyn-autorun.git
+git clone https://github.com/OneEyeKing-001/gensyn-autorun2.git
 
 
 # Move additional credential files (ensure these files exist in the current dir)
