@@ -42,7 +42,7 @@ sed -i 's|rm -r $ROOT_DIR/modal-login/temp-data/|# rm -r $ROOT_DIR/modal-login/t
 
 sed -i '/^#!\/bin\/bash/a exec &> >(tee -a console.log)' ~/rl-swarm/run_rl_swarm.sh
 sed -i '/^#!\/bin\/bash/a exec &> >(tee -a /root/rl_swarm_error.log)' ~/rl-swarm/run_rl_swarm.sh
-mv -v gensyn-autorun/watch_rl_swarm.sh ~/
+mv -v gensyn-autorun2/watch_rl_swarm.sh ~/
 sed -i 's/\r$//' /root/watch_rl_swarm.sh
 chmod +x /root/watch_rl_swarm.sh
 chmod +x /root/rl-swarm/run_rl_swarm.sh 
