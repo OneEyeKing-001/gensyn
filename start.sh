@@ -12,9 +12,6 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update && sudo apt install -y yarn
 pip install torch==2.7.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu --break-system-packages
 
-wget https://github.com/gensyn-ai/rl-swarm/archive/refs/tags/v0.5.2.zip
-unzip v0.5.2.zip
-mv rl-swarm-0.5.2 rl-swarm
 
 wget -q https://github.com/cloudflare/cloudflared/releases/download/2025.7.0/cloudflared-linux-amd64.deb
 sudo dpkg -i cloudflared-linux-amd64.deb
